@@ -1,0 +1,29 @@
+.header {
+  position: relative;
+  background-color: $color-white;
+  background: linear-gradient(to right, #ffffffb3, #a3b0bdb3),
+    url(../images/headerbg.jpg) no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 90vh;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  &__logo {
+    max-width: 4rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 4rem;
+
+    & img {
+      width: 100%;
+    }
+  }
+
+  &__textBox {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

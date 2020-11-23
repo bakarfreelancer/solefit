@@ -1,0 +1,24 @@
+.modernDesing {
+  background-color: $color-grey-light;
+  padding: 25rem 0;
+  margin-top: -20vh;
+}
+.feature {
+  background: linear-gradient(to right, #ffffffb3, #a3b0bdb3),
+    url(../images/headerbg.jpg) no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 18rem 0;
+  margin-top: -5rem;
+  transform: skewY(-4.5deg);
+
+  & > * {
+    transform: skewY(4.5deg);
+  }
+}
+
+.popular {
+  margin-top: -5rem;
+  background-color: $color-grey-light;
+  padding: 17rem 0;
+}
